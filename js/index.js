@@ -72,7 +72,7 @@ $(function () {
     let allLis = $("#lk_nav li");
     
     $(allLis[2]).on("click", function () {
-        $("html,body").animate({ scrollTop: $("#lk_hot").offset().top }, 1000);
+        $("html,body").animate({ scrollTop: $("#lk_product").offset().top }, 1000);
     });
 
 
